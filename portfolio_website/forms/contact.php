@@ -25,14 +25,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'sharifislam0505@gmail.com';
-        $mail->Password   = 'jmaf yvxz tash ubaq';   
+        $mail->Username   = 'Ahanafwadudarnob@gmail.com';
+        $mail->Password   = 'digosaphskwcfzwp';   
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
         // Recipients
-        $mail->setFrom('sharifislam0505@gmail.com', 'Shariful Islam Portfolio');
-        $mail->addAddress('sharifislam0505@gmail.com', 'Shariful Islam');
+        $mail->setFrom('Ahanafwadudarnob@gmail.com', 'Ahnaf Wadud Arnab Portfolio');
+        $mail->addAddress('Ahanafwadudarnob@gmail.com', 'Ahnaf Wadud Arnab');
         $mail->addReplyTo($email, $name);
 
         // Content

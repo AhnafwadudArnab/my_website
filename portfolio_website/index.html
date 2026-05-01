@@ -138,11 +138,8 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <!-- Responsive hero images: mobile portrait / desktop landscape -->
-      <picture data-aos="fade-in">
-        <source media="(max-width: 768px)" srcset="assets/img/pp.png">
-        <img src="assets/img/pp.png" alt="Ahnaf Wadud Arnab" class="hero-img" fetchpriority="high" decoding="async">
-      </picture>
+      <!-- Hero profile image — right side -->
+      <img src="assets/img/bg1.png" alt="Ahnaf Wadud Arnab" class="hero-img" data-aos="fade-in" fetchpriority="high" decoding="async">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <h2>Ahnaf Wadud Arnab</h2>
@@ -741,11 +738,12 @@
 
     <script>
     const PROJECTS_DATA = [
-      { title: "Amar Rail Sheba", description: "Bangladesh Railway Ticket Booking System — full-featured Flutter app with train search across 60+ stations, interactive seat selection, digital PDF tickets, real-time train tracking on Google Maps, push notifications, lost & found, and an admin panel. Academic DBMS project at UIU.", stack: ["Flutter","Firebase","GetX","Google Maps","Node.js","MySQL"], github: "https://github.com/AhnafwadudArnab/Amar-Rail-sheba", live: "https://amar-rail-sheba.vercel.app", thumbnail: "assets/project_thumbnail/railway.png", featured: true },
       { title: "Project 2", description: "Add your project description here.", stack: ["Flutter","Firebase"], github: "https://github.com/AhnafwadudArnab/", live: "", thumbnail: "", featured: false },
-      { title: "Project 3", description: "Add your project description here.", stack: ["React Native","Node.js","MySQL"], github: "https://github.com/AhnafwadudArnab/", live: "", thumbnail: "", featured: false },
-      { title: "Project 4", description: "Add your project description here.", stack: ["Java","Socket Programming"], github: "https://github.com/AhnafwadudArnab/", live: "", thumbnail: "", featured: false },
-      { title: "ElectroZone BD", description: "Online electronics e-commerce platform for Bangladesh — featuring product listings, shopping cart, order management, and a clean responsive UI for buying electronics online.", stack: ["Flutter", "Node.js", "MySQL", "Firebase"], github: "https://github.com/AhnafwadudArnab/electrocitybd_upto", live: "https://electrozonebd.com", thumbnail: "assets/project_thumbnail/electrozone.png", featured: false }
+      { title: "Amar Rail Sheba", description: "Bangladesh Railway Ticket Booking System — full-featured Flutter app with train search across 60+ stations, interactive seat selection, digital PDF tickets, real-time train tracking on Google Maps, push notifications, lost & found, and an admin panel. Academic DBMS project at UIU.", stack: ["Flutter","Firebase","GetX","Google Maps","Node.js","MySQL"], github: "https://github.com/AhnafwadudArnab/Amar-Rail-sheba", live: "https://amar-rail-sheba.vercel.app", thumbnail: "assets/project_thumbnail/railway.png", featured: true },
+      { title: "BiteRight App", description: "Cross-platform diet and food tracking app with personalized meal logging and nutritional insights. Designed RESTful API with Node.js and MySQL supporting user profiles, food entries, and history tracking. Delivered responsive UI with React Native ensuring consistent experience on both iOS and Android.", stack: ["React Native","MySQL","Node.js"], github: "https://github.com/AhnafwadudArnab/Biteright_app", live: "", thumbnail: "assets/project_thumbnail/biteright.jpg", featured: false },
+      { title: "Face Detection App", description: "Integrated OpenCV-based Python backend with Flutter frontend for real-time face detection via REST API. Achieved accurate detection results by fine-tuning ML model parameters for varied lighting conditions. Demonstrated practical AI/ML integration within a cross-platform mobile environment.", stack: ["Flutter","Python","OpenCV","REST API"], github: "https://github.com/AhnafwadudArnab/FACE_DETECTION_APP", live: "", thumbnail: "assets/project_thumbnail/facedetection.png", featured: false },
+      { title: "ElectroZone BD", description: "Online electronics e-commerce platform for Bangladesh — featuring product listings, shopping cart, order management, and a clean responsive UI for buying electronics online.", stack: ["Flutter", "Node.js", "MySQL", "Firebase"], github: "https://github.com/AhnafwadudArnab/electrocitybd_upto", live: "https://electrozonebd.com", thumbnail: "assets/project_thumbnail/electrozone.png", featured: false },
+      { title: "Chat Application", description: "Implemented real-time bidirectional messaging using Java socket programming with multi-client support. Managed concurrent connections and message queuing for stable, low-latency communication. Built clean MVC-structured UI enabling seamless user interaction and session handling.", stack: ["Java","Socket Programming","MVC"], github: "https://github.com/AhnafwadudArnab/Chat-Application", live: "", thumbnail: "", featured: false }
     ];
     function getLangColor(t){t=t.toLowerCase();if(t.includes("flutter")||t.includes("dart"))return"#54c5f8";if(t.includes("react"))return"#61dafb";if(t.includes("node")||t.includes("express"))return"#68a063";if(t.includes("java"))return"#f89820";if(t.includes("python"))return"#3572a5";if(t.includes("mysql"))return"#4479a1";if(t.includes("firebase"))return"#ffca28";if(t.includes("mongodb"))return"#47a248";return"#22c55e";}
     document.addEventListener("DOMContentLoaded",function(){
