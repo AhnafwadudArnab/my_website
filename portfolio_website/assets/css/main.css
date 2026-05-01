@@ -718,6 +718,15 @@ section,
   letter-spacing: -1px;
 }
 
+.hero-greeting {
+  margin: 0 0 4px 0;
+  font-family: var(--nav-font);
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--accent-color);
+  letter-spacing: 1px;
+}
+
 .hero p {
   margin: 10px 0 0 0;
   font-family: var(--nav-font);
